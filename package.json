@@ -1,6 +1,6 @@
 {
   "name": "storybook-preset-craco",
-  "version": "0.0.6",
+  "version": "0.2.0-Custom",
   "description": "Craco preset for Storybook",
   "homepage": "https://github.com/artisanofcode/storybook-preset-craco",
   "bugs": {

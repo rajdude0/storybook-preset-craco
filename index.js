@@ -7,15 +7,8 @@ const { logger } = require("@storybook/node-logger");
 
 const { resolve, relative, dirname, join } = require("path");
 
-const {
-  mergePlugins,
-} = require("@storybook/preset-create-react-app/dist/helpers/mergePlugins");
-const {
-  processCraConfig,
-} = require("@storybook/preset-create-react-app/dist/helpers/processCraConfig");
-const {
-  getModulePath,
-} = require("@storybook/preset-create-react-app/dist/helpers/getModulePath");
+
+const { processCraConfig, mergePlugins, getModulePath } = require("./helpers");
 
 const CWD = process.cwd();
 
