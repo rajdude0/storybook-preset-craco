@@ -1,5 +1,5 @@
-import { resolve } from 'path';
-import semver from 'semver';
+const { resolve } = require('path');
+const semver = require('semver');
 
 const isRegExp = (value) => value instanceof RegExp;
 
